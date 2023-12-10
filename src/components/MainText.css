@@ -1,0 +1,140 @@
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: left;
+  color: #2d2d2d;
+  margin-bottom: 22px;
+}
+
+.top-up {
+  color: #ff8345;
+}
+
+.bank {
+  line-height: 72px;
+}
+
+.description {
+  color: #7c7c7c;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.get-started {
+  width: 128px;
+  height: 46px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.search {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+.search-panel:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.search-panel form {
+  width: 100%;
+  max-width: 597px;
+  float: left;
+  margin-right: 30px;
+}
+.search-panel input {
+  padding-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 42px;
+  border: none;
+  background: #fff;
+  outline: none;
+  position: relative;
+  transition: 0.3s linear;
+
+  max-width: 597px;
+  width: 100%;
+  height: 62px;
+  border-radius: 100px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.search-panel button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 3%;
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+  color: #707070;
+}
+
+.users span {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fd905a;
+}
+
+.user {
+  position: relative;
+  overflow: hidden;
+  width: 38px;
+}
+
+.users-img {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.user:not(:last-child) {
+  margin-left: -18px;
+}
+
+.user img {
+  width: 100%;
+  display: block;
+}
+
+.users .users-text {
+  margin-left: 5px;
+}
